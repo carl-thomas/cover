@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/screen.css" type="text/css" />
+</head>
+<body>
+
+<div class="header">
+    <div class="container">Header</div>
+</div>
+
+
+<div class="main-content">
+    <div class="video-container">
+        <video class="video-player" autoplay="autoplay" loop="loop" width="1280" height="720">
+            <source src="send-money.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">Footer</div>
+</div>
+
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<script type="text/javascript" src="dist/js/ct-cover.jquery.min.js"></script>
+<script type="text/javascript">
+    $(".video-player").ctCover();
+</script>
+</body>
+</html>

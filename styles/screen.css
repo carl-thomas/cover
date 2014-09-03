@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 92px;
+    background: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.main-content {
+    padding-top: 92px;
+    height: calc(100% - (104px + 92px));
+}
+.footer {
+    height: 104px;
+    background: orange;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    line-height: 92px;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.video-container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
