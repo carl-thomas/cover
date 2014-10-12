@@ -1,3 +1,4 @@
+// Author: Carl Thomas
 (function($) {
     $.fn.ctCover = function() {
         var videoPlayer = this;
